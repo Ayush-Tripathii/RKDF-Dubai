@@ -1,5 +1,5 @@
 /**
- * RKDF University, Bhopal - Official Website JavaScript
+ * RKDF University Dubai - Official Website JavaScript
  * Interactive functionality & UI enhancements
  */
 
@@ -176,9 +176,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const newsData = {
     'placement': {
       date: 'May 24, 2025',
-      title: 'RKDF University State Level Mega Open Campus Placement Drive',
-      author: 'Training & Placement Cell, RKDF Bhopal',
-      content: 'RKDF University organized Central India’s premier State Level Mega Open Campus Recruitment Drive at its Gandhi Nagar campus. Over 150+ leading multinational and national corporations participated, offering competitive salary packages across Engineering, Pharmacy, Management, and Computer Applications disciplines. Over 1,200 student job offers were extended during the two-day recruitment event.'
+      title: 'RKDF University Dubai International Mega Campus Placement Drive',
+      author: 'Training & Placement Cell, RKDF Dubai',
+      content: 'RKDF University organized its premier International Mega Open Campus Recruitment Drive at its Dubai Academic City campus. Over 150+ leading multinational and global corporations participated, offering competitive salary packages across Engineering, Pharmacy, Management, and Computer Applications disciplines. Over 1,200 student job offers were extended during the recruitment event.'
     },
     'seminar': {
       date: 'April 28, 2025',
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { title: 'Examination Time Table & Scheme June 2025', category: 'Examinations', link: '#exam' },
     { title: 'SANGRAAM National Level Sports Carnival', category: 'Campus Life', link: '#campus-life' },
     { title: 'NAAC Certificate of Accreditation & UGC Approvals', category: 'Approvals', link: '#approvals' },
-    { title: 'Campus Hostel & Transportation Facility, Bhopal', category: 'Campus Services', link: '#campus-life' }
+    { title: 'Campus Hostel & Executive Accommodation, Dubai', category: 'Campus Services', link: '#campus-life' }
   ];
 
   searchTriggers.forEach(btn => {
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showToast('Please enter a valid email address.', 'error');
         return;
       }
-      showToast('Thank you! You are now subscribed to RKDF University updates.', 'success');
+      showToast('Thank you! You are now subscribed to RKDF University Dubai updates.', 'success');
       emailInput.value = '';
     });
   }
@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
     applyForm.addEventListener('submit', (e) => {
       e.preventDefault();
       closeModal(document.getElementById('modal-apply'));
-      showToast('Admission application registered! Admissions office will contact you shortly.', 'success');
+      showToast('Admission application registered! RKDF Dubai Admissions office will contact you shortly.', 'success');
       applyForm.reset();
     });
   }
@@ -349,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
     visitForm.addEventListener('submit', (e) => {
       e.preventDefault();
       closeModal(document.getElementById('modal-visit'));
-      showToast('Campus tour scheduled! Welcome to RKDF University Bhopal.', 'success');
+      showToast('Campus tour scheduled! Welcome to RKDF University Dubai.', 'success');
       visitForm.reset();
     });
   }
@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
   brochureTriggers.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      showToast('Downloading RKDF University 2025-26 Information Brochure...', 'info');
+      showToast('Downloading RKDF University Dubai 2025-26 Information Brochure...', 'info');
       setTimeout(() => {
         showToast('Brochure download initiated successfully!', 'success');
       }, 1500);
